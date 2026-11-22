@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GILT &amp; SMOKE: The Meridian Job</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; padding: 0; background: #0d0f14; }
+  body {
+    display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; font-family: Georgia, 'Times New Roman', serif;
+  }
+  #wrap { text-align: center; }
+  canvas {
+    display: block; width: 1280px; height: 720px;
+    background: #101218; border: 1px solid #4a3d28;
+    box-shadow: 0 0 60px rgba(216, 180, 90, 0.15);
+  }
+  #hint { color: #8a8f9a; font-size: 13px; margin-top: 10px; }
+  #hint b { color: #d8b45a; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="hint"><b>GILT &amp; SMOKE: The Meridian Job</b> — WASD move · Shift tiptoe · E interact · Q EMP · click throws a coin · F smash · P pause · M mute · R restart</div>
+</div>
+<script src="src/config.js"></script>
+<script src="src/levels.js"></script>
+<script src="src/vision.js"></script>
+<script src="src/guards.js"></script>
+<script src="src/cameras.js"></script>
+<script src="src/alarm.js"></script>
+<script src="src/tools.js"></script>
+<script src="src/player.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/render.js"></script>
+<script src="src/plan.js"></script>
+<script src="src/shots.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
